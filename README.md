@@ -8,7 +8,7 @@ Supports standard operators (`+`, `-`, `*`, `/`, `^`) with correct operator prec
 ## Features
 - Handles multi-digit numbers and decimals
 - Supports negative numbers (unary minus)
-- Respects operator precedence
+- Prioritises operator precedence
 - Allows parentheses `()` for grouping
 - Detects invalid input and mismatched parentheses
 - Prevents division by zero
