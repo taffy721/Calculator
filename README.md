@@ -1,22 +1,21 @@
-# Calculator
+# Text based calculator  
 
-A simple command-line calculator that parses and evaluates mathematical expressions using the **Shunting Yard algorithm**.  
-Supports standard operators (`+`, `-`, `*`, `/`, `^`) with correct operator precedence and parentheses.
-
----
-
-## Features
-- Handles multi-digit numbers and decimals
-- Supports negative numbers (unary minus)
-- Prioritises operator precedence
-- Allows parentheses `()` for grouping
-- Detects invalid input and mismatched parentheses
-- Prevents division by zero
+A simple command-line calculator that supports multiple operators and respects order of operations using the Shunting Yard algorithm.  
 
 ---
 
-##  Usage
-Run the script in a terminal:
+## Features  
+- Supports addition, subtraction, multiplication, division, and exponents.  
+- Handles parentheses and operator precedence correctly.  
+- Works with integers, decimals, and negative numbers.  
+
+---
+
+## Usage  
+
+Clone the repository, go into the folder, and run the program:  
 
 ```bash
+git clone https://github.com/your-username/calculator.git
+cd calculator
 python calculator.py
