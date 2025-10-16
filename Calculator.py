@@ -1,4 +1,3 @@
-# Check if the input token is a valid number (integer, decimal, or negative)
 def is_number(token):
     try:
         float(token)
@@ -71,7 +70,6 @@ def shunting_yard(expression):
     return output_queue
 
 
-# Evaluate an expression in Reverse Polish Notation
 def evaluate_rpn(rpn):
     stack = []
     for token in rpn:
@@ -95,7 +93,6 @@ def evaluate_rpn(rpn):
     return stack[0]
 
 
-# Main calculator function
 def calculator(equation):
     rpn = shunting_yard(equation)
     result = evaluate_rpn(rpn)
@@ -105,7 +102,6 @@ def calculator(equation):
     return result
 
 
-# Command-line loop
 while True:
     print("Enter an expression or 'quit' to exit the program")
     user_input = input("Enter an expression: ").replace(" ", "")
@@ -121,3 +117,4 @@ while True:
         except Exception as e:
             print(f"Error: {e}")
     print("-" * 30)
+
